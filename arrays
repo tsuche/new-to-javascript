@@ -97,6 +97,23 @@ console.log(rightnow);
 
 //I was getting off track so I implemented this code with array pop learned.
 
+-----
+
+ARRAY SHIFT AND UNSHIFT
+
+var desserts = [["mochi", "flan"] , ["icecream","cake"]];
+desserts.shift();
+console.log(desserts);
+//pops off the beginning
+//->[["icecream", "cake"]]
+
+
+desserts.unshift("mochi");
+console.log(desserts);
+//pushes mochi to the beginning 
+//-> ["mochi", ["icecream", "cake"]]
+
+-----
 
 
 
