@@ -65,6 +65,29 @@ console.log(nameArray[3][0][0]);
 // ->10
 
 -----
+ARRAY PUSH
+
+var theArrays = ["Norman", "N", "Music"];
+theArrays.push(["Lara", "L"]);
+
+//var resultArray = ["Norman", "N", "Music", ["Lara", "L" ]];
+var resultArray = theArrays
+
+console.log(resultArray[3][0]);
+//--> Lara
+
+console.log(resultArray[1]);
+//--> N
+
+console.log(resultArray[2]);
+//--> Music
+
+console.log(resultArray[3]);
+//--> ["Lara", "L"]
+
+-----
+
+
 
 
 
