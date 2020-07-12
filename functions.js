@@ -11,3 +11,11 @@ FUNCTIONS functionName(){
  //-> Hello Function
  
  ------
+PARAMETERS
+ 
+ function testing(a,b){
+    console.log(a*b);
+}
+
+testing(3,6);
+//->18
