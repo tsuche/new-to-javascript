@@ -113,7 +113,27 @@ console.log(desserts);
 //pushes mochi to the beginning 
 //-> ["mochi", ["icecream", "cake"]]
 
+
+PRACTICES
+
+var pencil = [["KuruToga", 10], ["Zebra", 9],["Mono",6]];
+pencil.shift();
+
+pencil.push(["KuruToga",10]);
+//switched the postition of kurutoga from first to last
+//-> [["Zebra", 9],["Mono",6],["KuruToga", 10]]
+
+pencil.unshift(["Staedler", 20]);
+//adding another item to 0 index
+
+console.log(pencil);
+//-> [["staedlaer", 20], ["Zebra",9] , ["Mono",6] , ["KuruToga", 10]]
+
+console.log(pencil[2]);
+// -> ["Mono",6]
+
 -----
+
 
 
 
