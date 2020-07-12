@@ -1,0 +1,45 @@
+ARRAYS
+
+var myArrays = [ "Jane", "Brock",10 ];
+
+console.log(myArrays);
+// -> [ "Jane", "Brock",10 ]
+
+console.log(myArrays[0]);
+// -> "Jane"
+
+console.log(myArrays[1]);
+// -> "Brock"
+
+console.log(myArrays[2]);
+// -> 10
+
+-----
+
+NESTED ARRAYS
+
+var moreArrays = [["Norman", 14], ["Lucien", 25]]
+console.log(moreArrays[1]);
+// -> Lucien, 25
+
+var emailAddress = [["@gmail.com"],["@yahoo.com"], ["@hotmail.com"]]
+var emailFirstname = "Ray"
+var emailLastName = "Buster"
+
+console.log(emailFirstname + emailLastName + emailAddress[0]);
+// ->RayBuster@gmail.com
+
+------
+
+var emailAddress = [["@gmail.com"],["@yahoo.com"], ["@hotmail.com"]]
+var emailFirstname = ["Ray", "Norman","Lara"]
+var emailLastName = ["Buster", "Charles", "Sinders"]
+
+console.log(emailFirstname[1] + emailLastName[2] + emailAddress[0]);
+//-> NormanSinders@gmail.com
+
+console.log(emailFirstname[2] + emailLastName[2] + emailAddress[2]);
+//-> LaraCharles@hotmail.com
+
+
+
