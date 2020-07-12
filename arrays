@@ -87,6 +87,16 @@ console.log(resultArray[3]);
 
 -----
 
+ARRAY POP
+
+var rightnow = [["learning","proactivity"] , ["discord","disctrations"]];
+rightnow.pop();
+
+console.log(rightnow);
+//this will say ["Learning","proactivity"] and pop off ["discord", "distractions"]
+
+//I was getting off track so I implemented this code with array pop learned.
+
 
 
 
