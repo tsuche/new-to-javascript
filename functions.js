@@ -98,3 +98,27 @@ function animegenre(genre) {
 
 console.log(animegenre("mafia")); 
 //-> 91 days
+
+------
+
+BOOLEAN AND OPERATORS
+
+/*
+= setting value 
+
+== compare/checks if a value equals 
+
+=== strict, strings don't matter
+ex. 3==="3" is wrong
+ex/ 3 == "3" is true
+*/
+
+function equalorno(val){
+    if (val == 8){
+        return "Equal";
+    }
+     return "Not Equal";
+}
+
+console.log(equalorno(8));
+// -> Equals
