@@ -1,0 +1,21 @@
+SORT ATTRIBUTE?
+--------
+• the "sort: code looks at strings from left to right.
+
+const drinks = [ "wine", "smoothie", "bubble tea", "juice"];
+drinks.sort();
+
+console.log(drinks);
+//-> ["bubble tea", "juice", "smoothie", "wine"]
+
+• With numbers, it's the same. The number first smallest number gets in order first
+  and not the overall biggest number.
+
+const numbers = [ "10000", "34, "310", "2", "9"];
+numbers.sort();
+
+console.log(numbers);
+//-> ["10000", "2", "310", "34", "9"];
+
+
+
