@@ -85,4 +85,27 @@ console.log(data.NA);
 
 /* What I've noticed is that using dot notation are one word and brackets are two. So I thought why not always use brackets then? 
 In bracket notation you need to add quotes or else it, the computer, will think you're talking about a variable or something
+*/
+
+-------
+
+DELETE PROPERTY
+
+var data = {
+  1: "gold",
+  2: "silver",
+  3: "bronze",
+  "no place": "loser"
+}
+
+data.NA = "DID NOT PARTICIPATE";
+data["extra"] = "SPECIAL MENTIONS TO..."
+
+console.log(data.NA);
+
+delete data.NA;
+
+console.log(data.NA);
+//-> undefined
+
 
