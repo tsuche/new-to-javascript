@@ -26,3 +26,20 @@ var me = data["long word"][0];
 console.log(me);
 //-> need to use brackets when string is two letters cause can't write (data.long word) ya know?
 
+----------
+
+LOOKUP
+
+var data = {
+  1: "gold",
+  2: "silver",
+  3: "bronze"
+}
+
+var metal = 1
+var myMetal = data[metal];
+
+console.log(myMetal);
+//-> "gold"
+
+//if you put data.metal, it would result as undefined 
