@@ -43,3 +43,24 @@ console.log(myMetal);
 //-> "gold"
 
 //if you put data.metal, it would result as undefined 
+
+________
+
+UPDATE VALUES OF PROPERTIES
+
+var data = {
+  1: "gold",
+  2: "silver",
+  3: "bronze",
+  "no place": "loser"
+}
+console.log(data["no place"])
+//-> "loser"
+
+data[1] = "winner";
+data["no place"] = "didn't make it"
+
+console.log(data[["no place"]])
+//-> didn't make it
+
+
