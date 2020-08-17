@@ -63,4 +63,26 @@ data["no place"] = "didn't make it"
 console.log(data[["no place"]])
 //-> didn't make it
 
+_______
+
+ADDING PROPERTIES TO OBJECT
+
+var data = {
+  1: "gold",
+  2: "silver",
+  3: "bronze",
+  "no place": "loser"
+}
+
+data.NA = "DID NOT PARTICIPATE";
+data["extra"] = "SPECIAL MENTIONS TO..."
+
+console.log(data.extra);
+//->"SPECIAL MENTIONS TO..."
+
+console.log(data.NA);
+//-> "DID NOT PARTICIPATE"
+
+/* What I've noticed is that using dot notation are one word and brackets are two. So I thought why not always use brackets then? 
+In bracket notation you need to add quotes or else it, the computer, will think you're talking about a variable or something
 
