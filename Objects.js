@@ -108,4 +108,52 @@ delete data.NA;
 console.log(data.NA);
 //-> undefined
 
+-----
+CHECKS IF A PROPERTY IS IN OBJECT
+
+var schedule = {
+  "first": "english",
+  "second": "AP Computer Science A",
+  "third": "Physics",
+  "fourth": "AP Biology"
+}
+
+function checkProperty(checkProp)
+{
+  return schedule.hasOwnProperty(checkProp);
+}
+
+console.log(checkProperty("first"));
+//-> true
+console.log(checkProperty("eighth"));
+//-> false
+
+
+-----
+  
+CHECKS IF PROPERTY IS IN OBJECTS AND RETURNS VALUE
+
+var schedule = {
+  "first": "english",
+  "second": "AP Computer Science A",
+  "third": "Physics",
+  "fourth": "AP Biology"
+}
+
+function checkProperty(checkProp)
+{
+  if(schedule.hasOwnProperty(checkProp))
+  {
+    return schedule[checkProp];
+  }else{
+    return "not found, try again"
+  }
+}
+
+console.log(checkProperty("first"));
+//-> English
+
+console.log(checkProperty("ninth"))
+//-> not found, try again
+
 
